@@ -1,4 +1,4 @@
-# errors [![Travis-CI](https://travis-ci.org/theodesp/bisect.svg)](https://travis-ci.org/theodesp/bisect)  
+# bisect [![Travis-CI](https://travis-ci.org/theodesp/bisect.svg)](https://travis-ci.org/theodesp/bisect)  
 [![GoDoc](https://godoc.org/github.com/theodesp/bisect?status.svg)](http://godoc.org/github.com/theodesp/bisect) 
 [![Report card](https://goreportcard.com/badge/github.com/theodesp/bisect)](https://goreportcard.com/report/github.com/theodesp/bisect) 
 

@@ -1,6 +1,6 @@
 package bisect
 
-// Package bisects implement common bisection algorithms
+// Package bisect implements common bisection algorithms
 
 // Interface is a type, typically a collection can be
 // sorted in-place by the routines in this package
@@ -9,9 +9,9 @@ type Interface interface {
 	Len() int
 	// Compares a given item with the element x at index i
 	// Should return a bool:
-	//    negative , if a < b
-	//    positive , if a > b
-	Less(i int, with interface{}) bool
+	//    negative , if a[i] < than
+	//    positive , if a[i] > than
+	Less(i int, than interface{}) bool
 }
 
 // Return the index where to insert item x in a, assuming a is sorted.

@@ -1,13 +1,13 @@
 package main
 
 import (
-	"github.com/theodesp/bisect"
 	"fmt"
+	"github.com/theodesp/bisect"
 )
 
-func main()  {
+func main() {
 	var ints bisect.IntSlice
-	for i:=0;i<10;i += 2 {
+	for i := 0; i < 10; i += 2 {
 		ints = append(ints, i)
 	}
 
